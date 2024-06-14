@@ -1,0 +1,43 @@
+/* 
+.main-container {
+    padding:20px;
+  }
+  
+  .main-title {
+    margin-bottom: 20px;
+  }
+  
+  .main-cards {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex: 1; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .card-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .card_icon {
+    font-size: 36px;
+    color: #4caf50;
+  }
+  
+  .charts {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+   */

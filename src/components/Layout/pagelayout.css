@@ -1,0 +1,69 @@
+/* PrimaryPageLayout.css */
+
+.main-content {
+    display: flex;
+  }
+  
+  .page-content {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #f0f2f5; /* Light grey background for content area */
+    min-height: 100vh; /* Ensures the content area takes full height of the viewport */
+  }
+  
+  #sidebar {
+    width: 250px;
+    background-color: #fff; /* White background for the sidebar */
+    border-right: 1px solid #ddd; /* Light grey border on the right */
+    transition: width 0.3s ease;
+  }
+  
+  #sidebar.sidebar-responsive {
+    width: 60px; /* Smaller width when the sidebar is responsive */
+  }
+  
+  .sidebar-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid #ddd; /* Light grey border at the bottom */
+  }
+  
+  .sidebar-brand {
+    display: flex;
+    align-items: center;
+  }
+  
+  .sidebar-brand .icon_header {
+    margin-right: 10px;
+    font-size: 24px; /* Size of the admin icon */
+  }
+  
+  .close_icon {
+    cursor: pointer;
+  }
+  
+  .sidebar-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .sidebar-list-item {
+    padding: 15px 20px;
+    border-bottom: 1px solid #ddd; /* Light grey border at the bottom of each item */
+  }
+  
+  .sidebar-list-item a {
+    text-decoration: none;
+    color: #333; /* Dark text color */
+    display: flex;
+    align-items: center;
+  }
+  
+  .sidebar-list-item .icon {
+    margin-right: 10px;
+    font-size: 18px; /* Size of the icons in the sidebar */
+  }
+  
